@@ -181,6 +181,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 				console.log(numCorrect)
 
 	}
+		var numCorrect= 0
 
 	}
 }
