@@ -1,0 +1,73 @@
+
+body{
+
+	font-family: 'Permanent Marker', cursive;
+	padding: 0;
+	margin: 0; 
+	display: flex; 
+	width: 100vw; 
+	height: 100vh; 
+	justify-content: center;
+	align-items: center; 
+	font-weight: bold !important;
+
+}
+
+h1{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+} 
+
+.btn-primary2{
+
+	background-color: #B8860B;
+	border-width: 10px;
+	border-color: #A52A2A;
+}
+
+.btn-primary2:hover{
+	background-color: #800000;
+	border-color: #A52A2A;
+	transform: scale(1.05);
+	color: #fff;
+}
+
+.btn-primary2:active{
+	background-color: #8B4513 !important;
+	border-color:#A52A2A !important;
+	color: #fff;
+}
+
+.brain img{
+	width: 70%;
+	animation: scale 3s infinite;  
+}
+
+.brain2 img{
+	width: 70%;
+	animation: scale 3s infinite;  
+}
+
+
+@keyframes scale {
+    0% {
+      width: 70%;
+		
+    }
+    
+    33% {
+       width: 75%;
+       transform: rotate(0.25turn);
+    }
+
+    66%{
+    	  width: 75%;
+    	  transform: rotate(-0.25turn);
+}
+    
+
+    100%{
+    	width: 70%;
+    }
+    	
