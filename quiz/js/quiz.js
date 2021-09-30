@@ -171,7 +171,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
 				alert(`Parabéns! Você Foi aprovado com ${numCorrect} acertos! Continue assim!`)
 				console.log(numCorrect)
-				var numCorrect= 0
+				
 
 			}
 
@@ -179,8 +179,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
 				alert(`Você foi reprovado, pois acertou ${numCorrect} questões, você deve acertar no minímo 7 questões para ser aprovado.`)
 				console.log(numCorrect)
-				var numCorrect= 0
-
+				
 	}
 		
 
