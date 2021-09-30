@@ -176,8 +176,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
 			else{
 
-				alert(`Você foi reprovado, pois acertou ${numCorrect} questões, você deve acertar 7 ou 
-					mais questões para ser aprovado.`)
+				alert(`Você foi reprovado, pois acertou ${numCorrect} questões, você deve acertar no minímo 7 questões para ser aprovado.`)
 				console.log(numCorrect)
 
 	}
